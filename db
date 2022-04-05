@@ -1,0 +1,19 @@
+CREATE TABLE users(
+  idUsers int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+  first_name TINYTEXT NOT NULL,
+  last_name TINYTEXT NOT NULL,
+  emailUsers_name TINYTEXT NOT NULL,
+  pwdUsers LONGTEXT NOT NULL
+
+);
+
+CREATE TABLE book(
+    idUsers int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    name TINYTEXT NOT NULL,
+    emailUsers TINYTEXT NOT NULL,
+    pickLocation LONGTEXT NOT NULL,
+    dropLocation LONGTEXT NOT NULL,
+    userDate LONGTEXT NOT NULL,
+    userTime LONGTEXT NOT NULL
+
+);
